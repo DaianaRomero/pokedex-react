@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.pokedex-card{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.searchBar-container{
+    display:flex;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  .searchBar{
+  background-color: aliceblue;
+  margin: 20px;
+  }
+  
+  .searchBar input{
+    padding: 10px;
+    border-radius : 3px;
+    border:none
+  
+  }
+  .searchBar input:focus{
+    outline: none;
+  }
+  
+  .searchBar-btn button{
+    background-color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius : 3px;
+    color: rgb(255, 255, 255);
+  }
+  .paggination-btn button{
+    background-color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius : 3px;
+    color: rgb(255, 255, 255);
+  }
+  .pagination-text{
+    margin: 10px;
+  }
+  .header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spinner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .pagination{
+    margin: 20px;
+  }
+  .pokedex-grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ /* background-color: rgb(250, 250, 250);*/
+
+    
+  }
+  .pokemon-card{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    /*border: 3px solid rgb(216, 231, 229);*/
+    margin: 15px;
+    width: 355px;
+    border-radius: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 1)
+    
+  }
+  
+  .pokemon-type{
+    display: flex;
+   
+  }
+  
+  .card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1;
+    
+    
+  }
+  .card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .card-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-top h2{
+    text-transform:capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .pokemon-img-container{
+  padding: 5px;
+  }
+  .pokemon-type-text{
+  margin-right: 5px;
+  text-transform:capitalize
+  }
+  
+  .pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  
