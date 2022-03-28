@@ -3,10 +3,8 @@ import Footer from './componentes/Footer';
 
 import {
   BrowserRouter as Router,
-  Routes,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import PrivateRoute from './componentes/PrivateRoute';
 import Pokemon from './componentes/Pokemon';

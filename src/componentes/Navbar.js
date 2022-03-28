@@ -8,9 +8,6 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
-import Error404 from './Error404';
-import Inicio from './Inicio';
-import Login from './Login';
 
 
 export function Navbar() {
